@@ -1,0 +1,40 @@
+# Environment Configuration (민감정보 포함)
+.env
+
+# Maven Build Output
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# IDE Settings
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.claude/
+
+# Logs and Debug Files
+*.log
+debug_*.txt
+result_report_*.txt
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Personal Test Files
+test_*.sql
+my_*.sql
+temp/
+tmp/
+
+# Database Dumps
+*.sql.gz
+*.dump
